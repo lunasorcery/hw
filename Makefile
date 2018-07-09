@@ -1,5 +1,5 @@
 hw: interpreter.c
-	$(CC) interpreter.c -o hw -Wall -Wextra -Weverything
+	$(CC) interpreter.c -o hw -Wall -Wextra
 
 clean:
 	rm -f hw
