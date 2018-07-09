@@ -50,7 +50,7 @@ While HW is not in of itself capable of handling network connections, that's not
 ```
 while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; hw server.hw; } | nc -l 8080 |:; done
 ```
-This will start a http server on port 8080.
+This will start an http server on port 8080.
 Make sure you have ``server.hw`` in the current directory. You can replace ``server.hw`` with any file in the examples directory and it will work as expected.
 
 ## Building the interpreter
