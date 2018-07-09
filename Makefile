@@ -1,8 +1,2 @@
-hw: interpreter.c
-	$(CC) interpreter.c -o hw -Wall -Wextra
-
-clean:
-	rm -f hw
-
-install: hw
-	cp hw /usr/local/bin/hw
+hw: interpreter.sb2
+	"C:\Program Files (x86)\Scratch 2\scratch.exe"
