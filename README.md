@@ -34,7 +34,7 @@ $ hw examples/hello-world.hw
 
 If you provide multiple source files to the HW interpreter, they will be executed as if the files were concatenated into a single file. If you provide a path to a file that doesn't exist, the interpreter will treat it as an empty file instead of raising an error. Similarly, if you provide no paths, the interpreter will assume you intended to pass an empty file.
 
-You can also run a program from stdin, in UNIX environments, this is achieved by piping. For example
+You can also run a program from stdin, in *nix environments, this is achieved by piping. For example
 ```
 $ echo "Hello, World!" | hw
 ```
@@ -46,7 +46,7 @@ A statement in HW is considered to be any number of consecutive bytes, terminate
 Despite being turing-incomplete, it _is_ possible to implement a [quine](https://en.wikipedia.org/wiki/Quine_(computing)) in HW. Source code for this is provided in the ``examples/`` folder.
 
 #### Webserver
-While HW is not in of itself capable of handling network connections, that's not in any way a limitation. Quite the contrary, writing your own network code is prone to introduce bugs that can be severe when exposed to the network. Therefore requiring the use of well tested networking tools, such as ``netcat`` (aka ``nc``) is preferred. You can easily just code your web application, and then pass off the result to the secure tool that handles the networking for you. Here's an example of how to start a server using HW:
+While HW is not in of itself capable of handling network connections, that's not in any way a limitation. Quite the contrary, writing your own network code is prone to introduce bugs that can be severe when exposed to the network. Therefore requiring the use of well tested networking tools, such as ``netcat`` (aka ``nc``) is preferred. You can easily just code your web application, and then pass off the result to the secure tool that handles the networking for you. Here's an example of how to start a server using HW in a *nix environment:
 ```
 while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; hw server.hw; } | nc -l 8080 |:; done
 ```
