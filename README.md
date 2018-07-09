@@ -68,7 +68,7 @@ Changes to the interpreter source code are unlikely to be accepted. Improvements
 ## Brand Guidelines
 [brand-guidelines]: #brand-guidelines
 
-When referring to the language, it should be capitalised 'HW'. When referring to the interpreter, is should be lower-case 'hw'. All other forms, either variations on capitalisation or using homoglyphs, are unacceptable and may incur legal action.
+When referring to the language, it should be capitalised 'HW'. When referring to the interpreter, it should be lower-case 'hw'. All other forms, either variations on capitalisation or using homoglyphs, are unacceptable and may incur legal action.
 
 ## License
 [license]: #license
