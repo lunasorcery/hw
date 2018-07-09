@@ -26,13 +26,7 @@ HW source files conventionally use the ``.hw`` file extension, though the interp
 
 #### Running a HW program
 
-To run a HW program, invoke the interpreter ``hw`` from a command-line, and provide the source files as command-line arguments. For example:
-
-```
-$ hw examples/hello-world.hw
-```
-
-If you provide multiple source files to the HW interpreter, they will be executed as if the files were concatenated into a single file. If you provide a path to a file that doesn't exist, the interpreter will treat it as an empty file instead of raising an error. Similarly, if you provide no paths, the interpreter will assume you intended to pass an empty file.
+To run a HW program, open the interpreter ``interpreter.sb2`` in scratch and then click the green flag.
 
 #### Syntax
 A statement in HW is considered to be any number of consecutive bytes, terminated by an end-of-file. All statements in HW will elicit the same execution from the interpreter - hence the turing-incompleteness.
@@ -44,22 +38,7 @@ Despite being turing-incomplete, it _is_ possible to implement a [quine](https:/
 ## Building the interpreter
 [building-the-interpreter]: #building-the-interpreter
 
-### Building on *nix
-[building-on-nix]: #building-on-nix
-
-Building the HW interpreter on *nix systems couldn't be simpler! Drop a shell, cd into the source repository, and execute the following commands:
-
-```
-make
-make install
-```
-
-(It is assumed that you know how to drop a shell, and that you have a C compiler installed and accessible via ``CC``)
-
-### Building on Windows
-[building-on-windows]: #building-on-windows
-
-Windows support is Coming Soon™.
+The interpreter is itself interpreted, leading to a new age of interpretation. We hope that in the future all interpreters will be interpreted by interpreted interpreters.
 
 ## Contributing
 [contributing]: #contributing
