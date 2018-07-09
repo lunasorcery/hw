@@ -1,5 +1,5 @@
-hw: interpreter.c
-	$(CC) interpreter.c -o hw -Wall -Wextra
+hw:
+	rustc interpreter.rs -o hw
 
 clean:
 	rm -f hw

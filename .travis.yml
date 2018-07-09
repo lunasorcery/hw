@@ -1,7 +1,6 @@
-language: c
+language: rust
 compiler:
-  - clang
-  - gcc
+  - rustc
 os:
   - linux
   - osx
