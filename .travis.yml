@@ -1,8 +1,9 @@
-language: c
+language: scratch
 compiler:
-  - clang
-  - gcc
+  - scratch
 os:
   - linux
   - osx
-script: make
+  - windows
+  - anything else scratch supports
+script: scratch
