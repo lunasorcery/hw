@@ -15,6 +15,9 @@ HW is turing-_incomplete_ by nature, so you can safely install it on your embedd
 #### Beginner-friendly
 With its laissez-faire approach to syntax strictness, you don't have to worry about syntax errors at all. You'll be up and running in no time!
 
+#### Globally Accessible
+International accessibility is important, and we're delighted to say that in addition to plain ASCII, HW also supports source code encoded in UTF-8, UTF-16, UTF-32, SHIFT-JIS, and numerous others.
+
 ## Using HW
 [using-hw]: #using-hw
 
@@ -68,7 +71,7 @@ Changes to the interpreter source code are unlikely to be accepted. Improvements
 ## Brand Guidelines
 [brand-guidelines]: #brand-guidelines
 
-When referring to the language, it should be capitalised 'HW'. When referring to the interpreter, is should be lower-case 'hw'. All other forms, either variations on capitalisation or using homoglyphs, are unacceptable and may incur legal action.
+When referring to the language, it should be capitalised 'HW'. When referring to the interpreter, it should be lower-case 'hw'. All other forms, either variations on capitalisation or using homoglyphs, are unacceptable and may incur legal action.
 
 ## License
 [license]: #license
